@@ -74,7 +74,7 @@ resource "aws_security_group" "plex-sg" {
     to_port     = 9091
     cidr_blocks = ["67.190.146.24/32"]
   }
-  
+
   ingress {
     protocol    = "tcp"
     from_port   = 32400

@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+sudo mkdir /data
+sudo mkfs -t xfs /dev/xvdf
+sudo mount /dev/xvdf /data
 
 sudo apt update -y
 
